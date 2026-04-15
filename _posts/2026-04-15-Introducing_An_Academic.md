@@ -3,7 +3,7 @@ title: "Introducing An Academic"
 date: 2026-04-15
 ---
 
-As a first post I thought I'd try to write something of an introduction.  My plan with this blog is to post informal, casual updates about what I do as an academic. I feel like what it means to be an academic is extremely varied.  I really love my job.  I can also see that in many ways I am lucky and privaledged.  I've been working in higher education for something like 15 years, it has been quite a journey.
+As a first post I thought I'd try to write something of an introduction.  My plan with this blog is to post informal, casual updates about what I do as an academic. I feel like what it means to be an academic is extremely varied.  I really love my job, but it is very difficult to describe what I do.  I can also see that in many ways I am lucky and privaledged.  I've been working in higher education for something like 15 years, it has been quite a journey.
 
 It seems to me that a lot can come from simply being in the right place at the right time. This can happen unknowingly, and we can also try our best to get ourselves into fortuitous circumstances. I feel like a major constraint in life can simply be, through no fault of our own, not knowing what is possible (a "perceptual horizon").  So hopefully, by posting the more informal parts of my working life, it might help others to build up a picture of what is possible. One of the greatest blessings in life is to have choice, and this is facilitated by an awareness of possibilities.
 
