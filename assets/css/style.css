@@ -195,6 +195,8 @@ main {
   background: #f6f8fa;
   border: 1px solid var(--line);
   border-radius: 10px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .site-footer {
