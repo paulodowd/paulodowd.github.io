@@ -1,0 +1,21 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+  <p class="eyebrow">Journal</p>
+  <h1>Notes and reflections on robotics, teaching, experiments, and research.</h1>
+  <p class="hero-text">A clean Jekyll blog designed for GitHub Pages, with readable typography and a simple layout.</p>
+</section>
+
+<section class="post-list">
+  <h2>Recent posts</h2>
+  {% for post in site.posts %}
+    <article class="post-card">
+      <p class="post-meta">{{ post.date | date: "%-d %B %Y" | replace: " ", "" }}</p>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+    </article>
+  {% endfor %}
+</section>

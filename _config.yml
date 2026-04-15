@@ -1,0 +1,14 @@
+title: Paul O'Dowd
+description: Notes and reflections on robotics, teaching, and research.
+url: "https://paulodowd.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
