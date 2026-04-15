@@ -1,6 +1,6 @@
 ---
-title:"Introducing An Academic"
-date:2026-04-15
+title: "Introducing An Academic"
+date: 2026-04-15
 ---
 
 As a first post I thought I'd try to write something of an introduction.  My plan with this blog is to post informal, causual updates about what I do as an academic. I feel like what it means to be an academic is extremely varied.  I really love my job.  I can also see that in many ways I am lucky and privaledged.  I've been working in higher education for something like 15 years, it has been quite a journey.
@@ -23,7 +23,7 @@ It is definitely the case that academia is a very exploitable environment and I 
 
 In my opinion, this is the aspect of academia which is most risky and builds a negative reputation.  There is always more work to do, and it can feel like a key skill is to simply delegate the work down the chain (I disagree with this!).  Eventually, there are early career academics or PhD students who may not feel able to say no.  Clearly, this would be unfair and unreasonable.  The healthier approach to "always more work" is to instead promote and create well resourced opportunities.  Each piece of work, if well supported, is an opportunity for growth and progression.  If we can keep growing, then the work can be distributed more fairly and reasonably.  If the work is necessary, then it should be properly resourced.
 
-I realise this is a very idealistic perspective, it may chafe, and taken to it's extremes it is simply not sustainable.  It is definitely challenging in today's UK economic environment.  However, it is a positive, aspirational view, and it feels like my current experience as an academic.  Of course, work for it's own sake needs clearing away.  But as an academic, my experience continues to be that there is an overwhelming, often bewilding amount of necessary work to do.  I find it is much more comfortable, meaningful and manageable to not be intimidated by this - to instead look at it through a lens of leverage to collectively help everyone to grow and achieve success.
+I realise this is a very idealistic perspective, it may chafe, and if taken to it's extremes it is simply not sustainable.  It is definitely challenging in today's UK economic environment.  However, it is a positive, aspirational view, and it feels like my current experience as an academic.  Of course, work for it's own sake needs clearing away.  But as an academic, my experience continues to be that there is an overwhelming, often bewilding amount of necessary work to do.  I find it is much more comfortable, meaningful and manageable to not be intimidated by this - to instead look at it through a lens of leverage to collectively help everyone to grow and achieve success.
 
 I find that this general concept occurs for me even at my immediate, local and personal experiences as an academic.  A core part of my current experience as an academic is that I have an unparalleled degree of freedom and autonomy, as long as I operate within the institutions policy and regulations.  On a day to day basis, I really do have the freedom to decide what I will work on and how - although, within that climate of too much to do.  Sometimes, this is a source of stress.  But most of the time it is a source of joy and fulfilment for me.  
 
