@@ -1,5 +1,5 @@
 ---
-title: "Introducing An Academic"
+title: Introducing-An-Academic
 date: 2026-04-15
 ---
 
