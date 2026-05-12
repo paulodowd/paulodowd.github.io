@@ -9,7 +9,7 @@ The below photo shows some hardware hacks to try and get things working.  The bo
 
 When I reviewed my electronic schematic in KiCad, I found a small box indicator rather than a dot indicator, meaning that the electronic connection was not defined.  Even though the fix was a few mouse-clicks, I had to wait for another round of PCB production, shipping and delivery.  However, I also discovered that one of the GPIO I wanted to use does not work if the WiFi module is enabled - so my first mistake (not having GPIO connected) became useful in allowing me to test other GPIO to read the sensors.  
 
-![image](https://raw.githubusercontent.com/paulodowd/paulodowd.github.io/refs/heads/main/assets/imgs/120526/SwarmB3_HardwareBugs.jpg)
+![image of some fixes to hardware](https://raw.githubusercontent.com/paulodowd/paulodowd.github.io/refs/heads/main/assets/imgs/120526/SwarmB3_HardwareBugs.jpg)
 
 On the right is an earlier version of my new communication board.   My hardware bugs and mistakes here were much more painful to resolve, probably taking a couple of days of cummulative time.  I'm using an Adafruit ItsyBitsy M4 (SAMD51 device) because it can be configured to operate 4 independent UART interfaces.  My first hardware bug was quite confounding. I use an AND gate to combine transmission data with a carrier signal.  However, when I measured the output of the AND gate via an oscilloscope the logic was crazy.  To cut a long story short, it turned out that the PCB had an isolated ground plane, so the AND gate wasn't correctly grounded.  
 
@@ -17,15 +17,10 @@ My second bug was much more annoying, and I chased my own tail for a while.  Rea
 
 Eventually, almost as a result of pure frustration, I went back to a breadboard and wired up a logic inverter IC instead.  This worked (of course).  Sometimes a hardware fix is easier than a software fix.  Updating the PCB design to include an inverter IC wasn't too bad, and again - the wait for manufacture, shipping and delivery.  When I received the next version, it turns out I made a similar mistake again - an isolated ground plane.  I had checked for this multiple times, but it still escaped me.  Fortunately, this time I was quick to check all the relevant connections and re-discover this problem.
 
+![image of a test rig to take measurements of communication between two robots](https://raw.githubusercontent.com/paulodowd/paulodowd.github.io/refs/heads/main/assets/imgs/120526/Communication_TestRig.jpg)
 
+I've got to the stage where I am now taking measurements of the communication board in application.  In December 2024 I took similar measurements of the previous version of the communication board [Swarm-B2](https://github.com/paulodowd/Swarm-B2).  The fact that it was 16 months ago since I last had time to work on my communication boards feeds into my current speed-running attempt.  When I took those measurements, I placed two robots in different positions manually (by hand).  It took a long time to do.  This time, I've managed to assemble the pictured test rig above.  This test rig is using two stepper motors to automatically and sequentially move robots into a variety of exact positions.  I'm very pleased with how this is working, and it is very satisfying to press "go" and come back later.  
 
-I'm finding that with the new AI platforms I am able to make progress much quicker than before.  I am able to share my thoughts, reflections and reasoning with AI at any time - such as when I am waiting for a train.  It is very much like having a collaborator always to hand to help me structure my thoughts.  
+When I produce the plots I have been able to observe some unexpected outcomes and I have to ask myself if this is something inherent, or whether it is emerging from my hardware or software design.  For example, in an early plot I could see a clear area of non-transmission between two LEDs.  My first reaction was surprise - I thought that I had physically placed the LEDs at just the right angle to create this gap.  I considered going back to the PCB design to fix it.  However, with some further thought and inspection of data, it turned out to be the effect of signal interference between LEDs.  As I mentioned previously, the board has independent UART interfaces and I wasn't managing to synchronise them successfully.  It is quite fun to then go back to the code and find the source of the problem.  So far, I've implemented two fixes, one improving on the other.  
 
-I have been surprised by the good quality of the AI responses for electronics questions. I have found that asking AI to render schematics frequently generates obviously incorrect results.  This makes me think of the concept of an unreliable narrator in fiction.  
-
-I've got to the stage where I am now taking measurements of the communication board in application.  When I produce the plots I have been able to observe some unexpected outcomes and I have to ask myself if this is something inherent, or whether it is emerging from my hardware or software design.
-
-
-
-```
-
+Overall, I am finding it very satisfying to develop something from electronics upwards, from scratch, on my own.  I feel that I am continuing to learn a lot.  It is also very satisfying to be presented with an issue, and to be able to think across all levels of the system.  I imagine that this isn't a situation that many are in.  Typically work is conducted in teams, and we inherit systems or products to maintain or improve.  
